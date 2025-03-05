@@ -52,6 +52,10 @@ input {
   text-align: left;
 }
 
+.hidden {
+  display: none;
+}
+
 footer {
   margin-top: 50px;
   font-size: 12px;
@@ -60,4 +64,14 @@ footer {
 
 a {
   color: rgb(74, 0, 0);
+}
+
+.blink {
+  animation: blinker 0.7s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
