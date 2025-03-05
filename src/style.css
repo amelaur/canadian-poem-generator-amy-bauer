@@ -1,3 +1,63 @@
+body {
+  background: rgb(247, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(255, 255, 255, 1) 68%,
+    rgba(255, 0, 0, 1) 92%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  color: rgb(74, 0, 0);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin: 100 100;
+  background: white;
+  padding: 30px 100px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0.7;
+}
+
 h1 {
-  color: red;
+  font-size: 27px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30px;
+  border: 1px solid rgb(74, 0, 0);
+  width: 300px;
+}
+
+.submit {
+  background-color: rgb(74, 0, 0);
+  color: white;
+  width: 100px;
+}
+
+.poem {
+  font-size: 20px;
+  margin: 20px;
+  padding: 100px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+a {
+  color: rgb(74, 0, 0);
 }
